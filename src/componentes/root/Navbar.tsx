@@ -1,4 +1,5 @@
 import { FaMusic } from "react-icons/fa";
+import { NavLink } from "react-router";
 
 function Navbar(){
     return (
@@ -15,7 +16,7 @@ function Navbar(){
                     <a href="#" className="hover:text-white cursor-pointer">Curso</a>
                 </div>
                 <div className="flex w-1/3 items-center justify-center cursor-pointer">
-                    <a href="#" className="hover:text-white cursor-pointer">Acordes</a>
+                    <NavLink to="/chords" className="hover:text-white cursor-pointer">Acordes</NavLink>
                 </div>
                 <div className="flex w-1/3 items-center justify-center cursor-pointer">
                     <a href="#" className="hover:text-white cursor-pointer">Canciones</a>
